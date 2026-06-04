@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Althea @18 | Debut Invitation</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:wght@400;600&family=Bodoni+Moda:wght@400;500;600;700&family=Great+Vibes&family=Cinzel:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+
+        <!-- HERO -->
+        <section id="hero">
+            <div id="sparkles"></div>
+
+            <div class="hero-content">
+                <p class="subtitle">IT'S MY BIRTHDAY!</p>
+
+                <h1>
+                    Althea Thierrie<br>
+                    De Lino Prado
+                </h1>
+
+                <p class="date">
+                    SAVE THE DATE <br>
+                    <span class="event-date">JUNE 13, 2026</span>
+                </p>
+
+                <a href="#invite" class="btn">View Invitation</a>
+
+                <img src="barcode.png" alt="Invitation Barcode" class="hero-code">
+            </div>
+        </section>
+
+        <!-- INVITATION -->
+        <section id="invite">
+            <div class="invite-content">
+
+                <h2 class="youre">
+                    You're<br>
+                    <span class="invited">INVITED</span>
+                </h2>
+
+                <p class="p1">
+                    TOGETHER WITH MY BELOVED PARENTS
+                </p>
+
+                <p class="p2">
+                    MR. TERENCE GARCIA PRADO &amp;
+                    MRS. AILEEN DE LINO PRADO
+                </p>
+
+                <p class="p3">
+                    PLEASE JOIN US TO CELEBRATE MY <br>
+                    EIGHTEENTH BIRTHDAY
+                </p>
+
+                <h2 class="p4">
+                    Althea Thierrie
+                </h2>
+
+                <div class="countdown-box">
+                    <a
+                        href="https://logwork.com/countdown-timer"
+                        class="countdown-timer"
+                        data-style="circles"
+                        data-timezone="Asia/Manila"
+                        data-date="2026-06-13 00:00"
+                        data-background="#ffffff"
+                        data-digitscolor="#000000">
+                        THE CELEBRATION BEGINS IN
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- PROGRAM -->
+        <section id="program">
+            <div class="container">
+
+                <h2 class="script fade-up">The 18s Program</h2>
+                <p class="fade-up">
+                    Click to view the special individuals.
+                </p>
+
+                <div class="program-grid fade-up">
+
+                    <div class="program-card glass-card"
+                         onclick="openModal('roses')"
+                         role="button"
+                         tabindex="0">
+                        <h3> 18 Roses</h3>
+                    </div>
+
+                    <div class="program-card glass-card"
+                         onclick="openModal('candles')"
+                         role="button"
+                         tabindex="0">
+                        <h3>18 Candles</h3>
+                    </div>
+
+                    <div class="program-card glass-card"
+                         onclick="openModal('bills')"
+                         role="button"
+                         tabindex="0">
+                        <h3> 18 Bills</h3>
+                    </div>
+
+                    <div class="program-card glass-card"
+                         onclick="openModal('gifts18')"
+                         role="button"
+                         tabindex="0">
+                        <h3> 18 Gifts</h3>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+<div id="programModal" class="modal">
+    <div class="modal-content">
+
+        <span class="close-modal" onclick="closeModal()">&times;</span>
+
+        <div class="modal-layout">
+
+            <div class="modal-image">
+                <img id="modalPhoto" src="" alt="">
+            </div>
+
+            <div class="modal-info">
+                <h2 id="modalTitle" class="modal-title"></h2>
+                <ul id="modalList" class="modal-list"></ul>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<section id="last-page">
+
+    <div class="last-content">
+
+        <h2 class="attire-title">Attire</h2>
+
+        <div class="attire-card">
+            <p class="description">
+                WE WOULD APPRECIATE IT IF YOU COULD WEAR
+                <br>
+                CASUAL / SEMI-FORMAL ATTIRE
+            </p>
+
+            <div class="note">
+                <p class="palette-text">PREFERABLY IN SHADES OF</p>
+
+                <div class="color-palette">
+                    <span class="color c1"></span>
+                    <span class="color c2"></span>
+                    <span class="color c3"></span>
+                    <span class="color c4"></span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- MOVE IT HERE -->
+    <div class="location-box">
+        <p>SCAN QR CODE TO VIEW DIRECTIONS</p>
+        <img src="QR.jpg" alt="Location QR Code">
+        <span>PLAZA DE ARKO PRIVATE RESORT</span>
+    </div>
+
+</section>
+
+<footer class="footer">
+
+    <div class="rsvp-section">
+        <h2>RSVP</h2>
+
+        <p class="rsvp-text">
+            WE HAVE RESERVED _____ SEAT/S FOR YOU
+        </p>
+    </div>
+
+<p class="footer-credit">
+    Website Designed & Developed by Vin
+</p>
+
+</footer>
+
+    </main>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.logwork.com/widget/countdown.js"></script>
+
+</body>
+</html>
