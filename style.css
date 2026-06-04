@@ -663,22 +663,24 @@ body {
 
 #last-page {
     min-height: 100vh;
-
     position: relative;
-    display: flex;
-    align-items: flex-start; /* move content upward */
-    justify-content: flex-start; /* move content left */
 
-    padding-top: 8rem;
-    padding-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    padding: 8rem 4rem;
 
     background:
-        linear-gradient(rgba(0,0,0,0.2)),
+        linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
         url("lastbg.jpg");
 
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
+
 
 .last-content {
     max-width: 1000px;
@@ -754,21 +756,12 @@ body {
 
 
 .location-box {
-    position: relative;
-    right: 520px;
-    bottom: -450px;
-
-    text-align: center;
+    margin-top: 2rem;
+    text-align: left;
     color: white;
+    max-width: 400px;
 }
 
-/* MOBILE FIX */
-@media (max-width: 768px) {
-    .location-box {
-        position: static;
-        margin-top: 20px;
-    }
-}
 
 .location-box h3 {
     font-family: 'Bodoni Moda', serif;
@@ -789,11 +782,14 @@ body {
     margin: 0 auto 10px;
 }
 
+
 .location-box span {
     display: block;
-    font-size: 0.9rem;
+    font-size: 1rem;
     letter-spacing: 1px;
+    text-transform: uppercase;
 }
+
 
 
 
@@ -958,7 +954,23 @@ body {
         padding: 20px;
     }
 
+    #last-page {
+        padding: 4rem 1.5rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    .last-content {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .location-box {
+        margin-top: 1.5rem;
+        text-align: center;
+    }
 }
+
 
 
 
