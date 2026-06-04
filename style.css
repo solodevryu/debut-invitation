@@ -757,9 +757,16 @@ body {
     position: absolute;
     right: 60px;
     bottom: 40px;
-
     text-align: center;
     color: white;
+}
+
+/* MOBILE FIX */
+@media (max-width: 768px) {
+    .location-box {
+        position: static;
+        margin-top: 20px;
+    }
 }
 
 .location-box h3 {
@@ -912,8 +919,8 @@ body {
     }
 
     .hero-content h1 {
-        margin-top: 2rem;
         font-size: 2.2rem;
+        margin-top: 1rem;
     }
 
     .date {
@@ -928,13 +935,12 @@ body {
     .hero-code {
         position: absolute;
         left: 50%;
-        bottom: -60px;
-        width: 100px;
+        bottom: -40px;
         transform: translateX(-50%);
+        width: 100px;
     }
-}
 
-    .invite-content h2 {
+        .invite-content h2 {
         margin-top: 0;
     }
 
@@ -950,6 +956,8 @@ body {
     .countdown-box {
         padding: 20px;
     }
+
+}
 
 
 
