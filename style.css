@@ -754,9 +754,10 @@ body {
 
 
 .location-box {
-    position: absolute;
-    right: 60px;
-    bottom: 40px;
+    position: relative;
+    right: 520px;
+    bottom: -450px;
+
     text-align: center;
     color: white;
 }
