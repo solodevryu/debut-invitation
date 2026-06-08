@@ -58,7 +58,7 @@ const programData = {
         "SANA NAOMI CARREON",
         "ALTHEA TRIXIE BIJER",
         "ZOE JEWEL LETIGIO",
-        "CHARICE DAQUIS",
+        "TOMOMI EGUCHI",
         "KEISHA NOELLE OLIVERA",
         "RAYAHNA DELA CRUZ",
         "PAULEEN PRADO"
@@ -90,7 +90,7 @@ const programData = {
         "ATE JESS PIMENTEL",
         "ATE RUFFA MAE BERNARDINO",
         "ERVIN NATHAN DE GUZMAN",
-        "TOMOMI EGUCHI",
+        "JANE JIMENEZ",
         "NEIZEL NEPOMUCENO",
         "MARK JOVEN MARQUEZ",
         "MARK DARREN CALIXTERIO",
